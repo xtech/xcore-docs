@@ -1,0 +1,26 @@
+{{ $links := .Site.Params.links }}
+
+<section class="row td-box td-box--4 td-box--gradient td-box--height-auto linkbox">
+
+    <div class="container">
+        <div>
+            <h2>{{ T "community_develop" }}</h2>
+            <p>{{ T "community_contribute" . }}</p>
+            {{ with index $links "developer"}}
+            {{ template "community-links-list" . }}
+            {{ end }}
+<!--            <p>{{ T "community_how_to" . }} <a href="/docs/contribution-guidelines/">{{ T "community_guideline" }}</a>-->
+        </div>
+    </div>
+</section>
+
+{{ define "community-links-list" }}
+<ul>
+    {{ range . }}
+    <li title="{{ .name }}">
+        <a target="_blank" rel="noopener" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}:</a>
+        {{ .desc }}
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

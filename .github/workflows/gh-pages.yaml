@@ -7,7 +7,7 @@ on:
 
 env:
   main_branch: main
-  base_url: 'https://core.x-tech.online/'
+  base_url: 'https://xtech.github.io/xcore-docs/'
 
 jobs:
   deploy:

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xCore Development Platform – Interface Overview</title><link>/docs/interfaces/</link><description>Recent content in Interface Overview on xCore Development Platform</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/interfaces/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Electrical Ratings</title><link>/docs/interfaces/electrical-ratings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/interfaces/electrical-ratings/</guid><description/></item><item><title>Docs: SODIMM Pinout / Connector</title><link>/docs/interfaces/sodimm-pinout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/interfaces/sodimm-pinout/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xCore Development Platform – Interface Overview</title><link>/docs/interfaces/</link><description>Recent content in Interface Overview on xCore Development Platform</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/interfaces/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: SODIMM Pinout / Connector</title><link>/docs/interfaces/sodimm-pinout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/interfaces/sodimm-pinout/</guid><description>
 &lt;p>The xCore board uses a &lt;strong>SODIMM connector&lt;/strong> to interface with external hardware. SODIMM (Small Outline Dual In-line
 Memory Module) connectors are well-suited for high-speed signal transmission and offer a large number of pins in a
 compact footprint.&lt;/p>
@@ -15,18 +15,19 @@ signals, giving you flexibility when designing your custom carrier boards.&lt;/l
 &lt;li>&lt;strong>Modular flexibility&lt;/strong>: Using a SODIMM connector allows the xCore platform to easily plug into different systems or
 custom carrier boards, simplifying integration and modularity.&lt;/li>
 &lt;/ul>
-&lt;h1 id="image">Image&lt;/h1>
-&lt;p>Refer to this image for&lt;/p>
-&lt;h1 id="pcb-footprint">PCB Footprint&lt;/h1>
-&lt;p>There is a KiCAD Footprint available for the xCore board for easy integration. You can get it here: [[TODO]]&lt;/p>
-&lt;h2 id="compatible-sodimm-connectors">Compatible SODIMM Connectors&lt;/h2>
+&lt;h2 id="interface-overview">Interface Overview&lt;/h2>
+&lt;p>In this image you can see an overview of the interfaces available on the SODIMM connector:
+&lt;img src="sodimm.jpg" alt="SODIMM Overview">&lt;/p>
+&lt;p>More detailed information can be found on the schematic or the &lt;a href="#pinout-table" title="Pinout Table">pinout table&lt;/a> below.
+&lt;img src="hw-xbot-core-Connectors.jpg" alt="SODIMM Connector Schematic">&lt;/p>
+&lt;h3 id="compatible-sodimm-connectors">Compatible SODIMM Connectors&lt;/h3>
 &lt;p>Any DDR3 SODIMM connector should work as a mating connector for the xCore PCB.&lt;/p>
 &lt;p>&lt;strong>Tested and confirmed working are these connectors:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>FOXCONN AS0A621-H2S6-7H&lt;/li>
 &lt;li>TE Connectivity 2-2013289-1&lt;/li>
 &lt;/ul>
-&lt;h2 id="ethernet-connectors">Ethernet Connectors&lt;/h2>
+&lt;h3 id="ethernet-connectors">Ethernet Connectors&lt;/h3>
 &lt;p>To connect Ethernet ports to the xCore board via the SODIMM connector, you&amp;rsquo;ll need to provide external &lt;strong>magnetics&lt;/strong>.
 Magnetics are required to interface between the twisted-pair Ethernet signals and the physical Ethernet ports on your
 custom carrier board.&lt;/p>
@@ -36,7 +37,9 @@ connections. They come in various configurations and are available from many man
 Connectivity, and Molex.&lt;/p>
 &lt;p>When selecting MagJack connectors, ensure they are compatible with &lt;strong>10/100/1000BASE-T Ethernet&lt;/strong> standards.&lt;/p>
 &lt;p>&lt;strong>Tested and confirmed part:&lt;/strong> HANRUN HR911130A&lt;/p>
-&lt;h1 id="pinout-table">Pinout Table&lt;/h1>
+&lt;p>Adding the Ethernet connector to the xCore is simple. When using a connector with integrated connections, you can connect it as shown in this image:&lt;/p>
+&lt;p>&lt;img src="Ethernet.jpg" alt="Ethernet Connector Schematic">&lt;/p>
+&lt;h2 id="pinout-table">Pinout Table&lt;/h2>
 &lt;p>This table shows the SDIMM pinout in detail:&lt;/p>
 &lt;table>
 &lt;thead>
@@ -1885,6 +1888,79 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Electrical Ratings</title><link>/docs/interfaces/electrical-ratings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/interfaces/electrical-ratings/</guid><description>
+&lt;h2 id="electrical-ratings">Electrical Ratings&lt;/h2>
+&lt;p>The xCore board is designed be powered easily.
+Below are the detailed electrical specifications based on the power and logic requirements of these components.&lt;/p>
+&lt;h3 id="power-supply">Power Supply&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Input Voltage&lt;/strong>: 5V DC&lt;br>
+A 5V power supply with a minimum current rating of 3A is recommended to ensure smooth operation, even under load.&lt;/li>
+&lt;li>&lt;strong>Power Consumption&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Idle&lt;/strong>: 600mA @ 5V&lt;/li>
+&lt;li>&lt;strong>Under Load&lt;/strong>: Up to 3A @ 5V (depending on connected peripherals and CM4 load)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Logic Level (I/O Pins)&lt;/strong>: 3.3V&lt;br>
+The xCore board&amp;rsquo;s logic operates at 3.3V.&lt;/li>
+&lt;li>&lt;strong>3.3V Rail Maximum Current&lt;/strong>: 500mA&lt;br>
+The 3.3V rail is suitable for low-power peripherals and provides up to 500mA.&lt;/li>
+&lt;/ul>
+&lt;h3 id="electrical-ratings-table">Electrical Ratings Table&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Parameter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Unit&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Notes&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Input Voltage Range&lt;/strong>&lt;/td>
+&lt;td>4.75 - 5.25&lt;/td>
+&lt;td>V&lt;/td>
+&lt;td>Consistent with Raspberry Pi CM4 requirements&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Recommended Power Supply&lt;/strong>&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>V&lt;/td>
+&lt;td>3A minimum current rating&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Idle Power Consumption&lt;/strong>&lt;/td>
+&lt;td>600&lt;/td>
+&lt;td>mA @ 5V&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Max Power Consumption&lt;/strong>&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>A @ 5V&lt;/td>
+&lt;td>Under load&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Logic Level (I/O Pins)&lt;/strong>&lt;/td>
+&lt;td>3.3&lt;/td>
+&lt;td>V&lt;/td>
+&lt;td>STM32H723 microcontroller logic level&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Max Current per GPIO Pin&lt;/strong>&lt;/td>
+&lt;td>8 (20 max)&lt;/td>
+&lt;td>mA&lt;/td>
+&lt;td>8mA standard, 20mA max&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Max Current (3.3V Rail)&lt;/strong>&lt;/td>
+&lt;td>500&lt;/td>
+&lt;td>mA&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>

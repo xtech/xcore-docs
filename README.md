@@ -1,6 +1,6 @@
-# openmower.de
+# xCore Docs
 
-This is the source code for the openmower.de website.
+This is the source code for the xCore Docs.
 
 If you find some issues with the documentation or want to add to it, please fork this repo and open a pull request.
 
@@ -20,7 +20,7 @@ hugo server
 
 ## Running a container locally
 
-You can run openmower.de inside a [Docker](https://docs.docker.com/)
+You can run this inside a [Docker](https://docs.docker.com/)
 container, the container runs with a volume bound to the `docsy-example`
 folder. This approach doesn't require you to install any dependencies other
 than [Docker Desktop](https://www.docker.com/products/docker-desktop) on
@@ -44,7 +44,7 @@ on Linux.
 1. Verify that the service is working. 
 
    Open your web browser and type `http://localhost:1313` in your navigation bar,
-   This opens a local instance of the openmower.de homepage. You can now make
+   This opens a local instance of the homepage. You can now make
    changes to the website and those changes will immediately show up in your
    browser after you save (not on Windows though. Hot reload only works on the non-dockerized hugo!).
 

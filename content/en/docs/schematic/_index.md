@@ -6,7 +6,7 @@ description: >
   Schematic for the xCore development board.
 ---
 
-This page provides the simplified schematic of the xCore development board to allow you to use the board ot its full extent.
+This page provides the simplified schematic of the xCore development board to allow you to use the board at its full extent.
 
 The PDF Version can be [downloaded here](hw-xbot-core.pdf).
 

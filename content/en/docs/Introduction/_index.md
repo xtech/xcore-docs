@@ -15,7 +15,7 @@ description: General information about the xCore development platform.
 
 The xCore board was born out of the [OpenMower project](https://github.com/ClemensElflein/OpenMower). The first version of the OpenMower PCB only worked with a few mower models from a single manufacturer. It quickly became clear that a more flexible solution was needed—a board that could bring together common components and make it easier to adapt the project to other mower models.
 
-xCore does exactly this by combining all the key components you need onto a single board, making it easy to integrate low-level hardware into any robotics project. It features a high-performance STM32H723 microcontroller, a gigabit Ethernet switch, flash storage, an Inertial Measurement Unit (IMU), and a dedicated slot for the Raspberry Pi Compute Module 4 (CM4). All of this is packed into a compact board with a SODIMM connector, ready to fit into any custom project or robotics system.
+xCore does exactly this by combining all the key components you need onto a single board, making it easy to integrate low-level hardware into any robotics project. It features a high-performance STM32H723 microcontroller, a gigabit Ethernet switch, 128 MBit flash storage, an Inertial Measurement Unit (IMU), and a dedicated slot for the Raspberry Pi Compute Module 4 (CM4). All of this is packed into a compact board with a SODIMM connector, ready to fit into any custom project or robotics system.
 
 xCore and [xbot-framework](https://github.com/clemenselflein/xbot_framework) make a great team, offering everything you need to kickstart your robotics projects with less hassle and more focus on what matters most.
 
@@ -31,6 +31,8 @@ xCore and [xbot-framework](https://github.com/clemenselflein/xbot_framework) mak
 4. **Seamless Networking**: The integrated gigabit Ethernet switch ensures fast and reliable communication between components, supporting advanced networking requirements and distributed control architectures.
 
 5. **IMU Integration**: An integrated IMU delivers precise motion sensing and orientation tracking, essential for navigation, stabilization, and control in robotics.
+
+6. **Flash Storage**: An integrated 128 Mbit flash storage allows you to store configuration data or sound files directly on the board. 
 
 
 ## Get Started with xCore

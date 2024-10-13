@@ -49,8 +49,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;th>STM32 Pin&lt;/th>
 &lt;th>Voltage Level&lt;/th>
 &lt;th>Note&lt;/th>
-&lt;th>&lt;/th>
-&lt;th>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
@@ -60,14 +58,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>5V&lt;/td>
 &lt;td>5V Power Input (4.75 - 5.25V, 3A).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -78,14 +72,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>5V&lt;/td>
 &lt;td>5V Power Input (4.75 - 5.25V, 3A).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -96,14 +86,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>5V&lt;/td>
 &lt;td>5V Power Input (4.75 - 5.25V, 3A).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -114,14 +100,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>5V&lt;/td>
 &lt;td>5V Power Input (4.75 - 5.25V, 3A).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>8&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -132,14 +114,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>5V&lt;/td>
 &lt;td>5V Power Input (4.75 - 5.25V, 3A).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>10&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -150,14 +128,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>5V&lt;/td>
 &lt;td>5V Power Input (4.75 - 5.25V, 3A).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>12&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -168,14 +142,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>5V&lt;/td>
 &lt;td>5V Power Input (4.75 - 5.25V, 3A).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>14&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -186,14 +156,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>5V&lt;/td>
 &lt;td>5V Power Input (4.75 - 5.25V, 3A).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>16&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -204,14 +170,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>5V&lt;/td>
 &lt;td>5V Power Input (4.75 - 5.25V, 3A).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>18&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -222,17 +184,13 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>3.3V Power Output, 500mA max (sum on both pins)&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>20&lt;/td>
-&lt;td>NC&lt;/td>
+&lt;td>PGOOD_5V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>5V&lt;/td>
+&lt;td>High, if 5V power supply is good (according to power supervisor). You can use this to switch your 5v rail off on overvoltage conditions.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>21&lt;/td>
@@ -240,14 +198,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>3.3V Power Output, 500mA max (sum on both pins)&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>22&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -258,14 +212,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>24&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -276,16 +226,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>26&lt;/td>
 &lt;td>ETH2 Pair D -&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -294,8 +240,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>28&lt;/td>
@@ -303,14 +247,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>29&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -321,16 +261,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>31&lt;/td>
 &lt;td>ETH2 Pair A -&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -339,16 +275,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>33&lt;/td>
 &lt;td>ETH2 Pair A +&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -357,14 +289,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>35&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -375,14 +303,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>37&lt;/td>
 &lt;td>ETH2 LED YELLOW&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -393,14 +317,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>39&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -411,16 +331,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>41&lt;/td>
 &lt;td>ETH1 Pair C -&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -429,16 +345,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>43&lt;/td>
 &lt;td>ETH1 Pair C +&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -447,14 +359,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>45&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -465,16 +373,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>47&lt;/td>
 &lt;td>ETH1 Pair A -&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -483,16 +387,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>49&lt;/td>
 &lt;td>ETH1 Pair A +&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -501,14 +401,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>51&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -519,14 +415,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>53&lt;/td>
 &lt;td>ETH1 LED YELLOW&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -537,14 +429,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>55&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -555,16 +443,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>57&lt;/td>
 &lt;td>ETH0 Pair C -&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -573,16 +457,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>59&lt;/td>
 &lt;td>ETH0 Pair C +&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -591,14 +471,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>61&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -609,16 +485,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>63&lt;/td>
 &lt;td>ETH0 Pair A -&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -627,16 +499,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>65&lt;/td>
 &lt;td>ETH0 Pair A +&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -645,14 +513,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>Differential&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>67&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -663,14 +527,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>69&lt;/td>
 &lt;td>ETH0 LED YELLOW&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -681,14 +541,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>71&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -699,14 +555,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>73&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -717,16 +569,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>75&lt;/td>
 &lt;td>UART6 TX&lt;/td>
 &lt;td>PC6&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -735,16 +583,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PG9&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>77&lt;/td>
 &lt;td>UART6 RX&lt;/td>
 &lt;td>PC7&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -753,16 +597,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PD7&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>79&lt;/td>
 &lt;td>UART1 TX&lt;/td>
 &lt;td>PA9&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -771,8 +611,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA5&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>81&lt;/td>
@@ -780,14 +618,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA10&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>82&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -798,16 +632,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA12&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>84&lt;/td>
 &lt;td>SPI2 MISO&lt;/td>
 &lt;td>PB14&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -816,8 +646,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA11&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>86&lt;/td>
@@ -825,14 +653,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB15&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>87&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -843,8 +667,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PD3&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>89&lt;/td>
@@ -852,14 +674,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PD5&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>90&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -870,8 +688,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PD6&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>92&lt;/td>
@@ -879,16 +695,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB7&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>Pull-Up to 3.3V included on xCore&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>93&lt;/td>
 &lt;td>UART7 TX&lt;/td>
 &lt;td>PF7&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -897,16 +709,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB6&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>Pull-Up to 3.3V included on xCore&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>95&lt;/td>
 &lt;td>UART7 RX&lt;/td>
 &lt;td>PA8&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -915,16 +723,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB11&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>Pull-Up to 3.3V included on xCore&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>97&lt;/td>
 &lt;td>UART8 TX&lt;/td>
 &lt;td>PE1&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -933,16 +737,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB10&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>Pull-Up to 3.3V included on xCore&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>99&lt;/td>
 &lt;td>UART8 RX&lt;/td>
 &lt;td>PE0&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -951,16 +751,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PD13&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>100kHz only! Connect to EEPROM for carrier board detection. Pull-Up to 3.3V included on xCore&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>101&lt;/td>
 &lt;td>UART10 TX&lt;/td>
 &lt;td>PE3&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -969,8 +765,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PD12&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>100kHz only! Connect to EEPROM for carrier board detection. Pull-Up to 3.3V included on xCore&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>103&lt;/td>
@@ -978,14 +772,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PE2&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>104&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -996,8 +786,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>106&lt;/td>
@@ -1005,14 +793,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PG12&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>107&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1023,14 +807,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB5&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>109&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1041,14 +821,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA15&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>111&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1059,14 +835,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PG13&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>113&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1077,14 +849,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>115&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1095,14 +863,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB9&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>117&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1113,14 +877,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB8&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>119&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1131,14 +891,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>121&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1149,14 +905,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PE7&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>123&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1167,14 +919,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PE8&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>125&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1185,16 +933,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PE9&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>127&lt;/td>
 &lt;td>GPIO 9&lt;/td>
 &lt;td>PE10&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1203,16 +947,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PE11&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>129&lt;/td>
 &lt;td>GPIO 8&lt;/td>
 &lt;td>PD8&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1221,16 +961,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PE12&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>131&lt;/td>
 &lt;td>GPIO 1&lt;/td>
 &lt;td>PD11&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1239,16 +975,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PE13&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>133&lt;/td>
 &lt;td>GPIO 5&lt;/td>
 &lt;td>PG3&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1257,16 +989,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PE14&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>135&lt;/td>
 &lt;td>GPIO 6&lt;/td>
 &lt;td>PG7&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1275,16 +1003,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PE15&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>137&lt;/td>
 &lt;td>GPIO 4&lt;/td>
 &lt;td>PE6&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1293,16 +1017,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PD9&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>139&lt;/td>
 &lt;td>GPIO 3&lt;/td>
 &lt;td>PE5&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1311,16 +1031,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PG2&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>141&lt;/td>
 &lt;td>GPIO 2&lt;/td>
 &lt;td>PE4&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1329,16 +1045,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PG4&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>143&lt;/td>
 &lt;td>GPIO 7&lt;/td>
 &lt;td>PG10&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1347,16 +1059,12 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PG5&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>145&lt;/td>
 &lt;td>GPIO 0&lt;/td>
 &lt;td>PD4&lt;/td>
 &lt;td>3.3V&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1365,14 +1073,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PG8&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>147&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1383,8 +1087,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PD10&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>149&lt;/td>
@@ -1392,14 +1094,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA0&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>150&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1410,14 +1108,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA3&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>152&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1428,14 +1122,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA4&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>154&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1446,14 +1136,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA6&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>156&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1464,14 +1150,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB0&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>158&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1482,8 +1164,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PB1&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>160&lt;/td>
@@ -1491,14 +1171,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA14&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>161&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1509,14 +1185,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>PA13&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>163&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1527,14 +1199,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>3.3V&lt;/td>
 &lt;td>Don’t pull this pin down!&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>165&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1545,14 +1213,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>167&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1563,14 +1227,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>169&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1581,14 +1241,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>171&lt;/td>
 &lt;td>NC&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1599,14 +1255,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>173&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1617,14 +1269,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>175&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1635,14 +1283,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>177&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1653,14 +1297,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>179&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1671,14 +1311,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>181&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1689,14 +1325,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>183&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1707,14 +1339,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>185&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1725,14 +1353,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>187&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1743,14 +1367,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>189&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1761,14 +1381,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>191&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1779,14 +1395,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>193&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1797,14 +1409,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>195&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1815,14 +1423,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>197&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1833,14 +1437,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>199&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1851,14 +1451,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>201&lt;/td>
 &lt;td>RESERVED&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1869,8 +1465,6 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>203&lt;/td>
@@ -1878,14 +1472,10 @@ Connectivity, and Molex.&lt;/p>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>204&lt;/td>
 &lt;td>GND&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>

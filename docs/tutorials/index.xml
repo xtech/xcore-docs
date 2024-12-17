@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xCore Development Platform – Tutorials</title><link>/docs/tutorials/</link><description>Recent content in Tutorials on xCore Development Platform</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Flashing STM32 From CM4</title><link>/docs/tutorials/flashing-stm32-from-cm4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/tutorials/flashing-stm32-from-cm4/</guid><description>
+&lt;p>In order to use the Raspberry Pi CM4 to upload firmware to the STM32, we need a custom version of OpenOCD which can use
+the CM4&amp;rsquo;s GPIOs to connect to the STM32&amp;rsquo;s SWD interface.&lt;/p>
+&lt;h3 id="step-1-building-openocd">Step 1: Building OpenOCD&lt;/h3>
+&lt;p>Execute the following commands in order to install the dependencies, build and install OpenOCD:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install automake autoconf build-essential libtool libftdi-dev libusb-1.0-0-dev texinfo pkg-config rpi.gpio-common curl
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone https://github.com/raspberrypi/openocd.git --recursive
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">cd&lt;/span> openocd
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>./bootstrap
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>./configure --enable-ftdi --enable-sysfsgpio --enable-bcm2835gpio
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make -j&lt;span style="color:#204a87;font-weight:bold">$(&lt;/span>nproc&lt;span style="color:#204a87;font-weight:bold">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo make install
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="step-2-get-the-openocd-configuration">Step 2: Get the OpenOCD Configuration&lt;/h3>
+&lt;p>Fetch the configuration and install it globally for OpenOCD to find it:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo curl -o /usr/local/share/openocd/scripts/interface/xcore.cfg https://core.x-tech.online/downloads/openocd-xcore.cfg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="step-3-upload-a-binary">Step 3: Upload a binary&lt;/h3>
+&lt;p>Get a binary (.elf format) and upload it to the STM32 like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>openocd -f interface/xcore.cfg -f target/stm32h7x.cfg -c &lt;span style="color:#4e9a06">&amp;#34;program your-binary.elf verify reset exit&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The firmware should be uploaded and the program should be running.&lt;/p></description></item></channel></rss>

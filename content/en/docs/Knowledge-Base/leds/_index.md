@@ -16,7 +16,7 @@ Following a list of the current known/implemented xCore LED meanings:
 |:---------------------------:|:-------------------------------------:|---------
 | On                          |                                       | IP assigned?
 | Blink<br>(~1Hz)             |                                       | TODO
-| Quick flash<br>(>=10Hz)     |                                       | Waiting for IP
-|                             | 2 blue quick flashes<br>(continuous)  | Waiting for IP?
-|                             | 2 green quick flashes<br>(continuous) | IP assigned?
+| Quick flash<br>(>=10Hz)     |                                       | TODO
+|                             | 2 blue quick flashes<br>(continuous)  | No App (OpenMower) firmware found?
+|                             | 2 green quick flashes<br>(continuous) | App (OpenMower) firmware up and alive?
 |                             | red                                   | TODO

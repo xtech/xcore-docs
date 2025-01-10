@@ -12,7 +12,13 @@ Building and running the site locally requires a recent `extended` version of [H
 You can find out more about how to install Hugo for your environment in our
 [Getting started](https://www.docsy.dev/docs/getting-started/#prerequisites-and-installation) guide.
 
-Once you've made your working copy of the site repo, from the repo root folder, run:
+Once you've made your working copy of the site repo, change to the repo root folder, install the required modules:
+
+```
+npm install --no-bin-links
+```
+
+and finally run:
 
 ```
 hugo server

@@ -31,3 +31,12 @@ Get a binary (.elf format) and upload it to the STM32 like this:
 openocd -f interface/xcore.cfg -f target/stm32h7x.cfg -c "program your-binary.elf verify reset exit"
 ```
 The firmware should be uploaded and the program should be running.
+
+
+### Debugging via remote GDB
+In order to debug the program on your xCore board, run the following command:
+```bash
+openocd -f interface/xcore.cfg -f target/stm32h7x.cfg -c "bindto 0.0.0.0"
+```
+
+Then connect your favorite IDE to port 3333 to upload and debug using GDB

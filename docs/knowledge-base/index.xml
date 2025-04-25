@@ -1,0 +1,47 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xCore Development Platform – Knowledge Base</title><link>/docs/knowledge-base/</link><description>Recent content in Knowledge Base on xCore Development Platform</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/knowledge-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Meaning of the LEDs</title><link>/docs/knowledge-base/leds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/knowledge-base/leds/</guid><description>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 810px">
+&lt;img class="card-img-top" src="/docs/knowledge-base/leds/leds_huf53331f27b08d7879abcd7df6520dbc0_216664_800x0_resize_q75_catmullrom.jpg" width="800" height="744">
+&lt;/figure>
+&lt;p>The meaning of the Raspberry Pi LEDs are public known. If not, please ask your preferred search engine.&lt;/p>
+&lt;p>Following a list of the current known/implemented xCore LED meanings:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">Left &amp;ldquo;Info&amp;rdquo; LED&lt;/th>
+&lt;th style="text-align:center">Right &amp;ldquo;Heartbeat&amp;rdquo; LED&lt;/th>
+&lt;th>Meaning&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">On&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>IP assigned?&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">Blink&lt;br>(~1Hz)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>TODO&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">Quick flash&lt;br>(&amp;gt;=10Hz)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>TODO&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">2 blue quick flashes&lt;br>(continuous)&lt;/td>
+&lt;td>No App (OpenMower) firmware found?&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">2 green quick flashes&lt;br>(continuous)&lt;/td>
+&lt;td>App (OpenMower) firmware up and alive?&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">red&lt;/td>
+&lt;td>TODO&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>

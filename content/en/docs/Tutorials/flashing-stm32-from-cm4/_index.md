@@ -10,7 +10,7 @@ the CM4's GPIOs to connect to the STM32's SWD interface.
 ### Step 1: Building OpenOCD
 Execute the following commands in order to install the dependencies, build and install OpenOCD:
 ```bash
-sudo apt install automake autoconf build-essential libtool libftdi-dev libusb-1.0-0-dev texinfo pkg-config rpi.gpio-common curl
+sudo apt install autoconf automake build-essential curl libftdi-dev libtool libusb-1.0-0-dev git pkg-config rpi.gpio-common texinfo
 git clone https://github.com/raspberrypi/openocd.git --recursive
 cd openocd
 ./bootstrap

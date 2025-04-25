@@ -26,9 +26,10 @@ sudo curl -o /usr/local/share/openocd/scripts/interface/xcore.cfg https://core.x
 ```
 
 ### Step 3: Upload a binary
-Get a binary (.elf format) and upload it to the STM32 like this:
+Get binary (see i.e. [Building STM32 Firmware]({{< ref "building-stm32-firmware" >}} "Building STM32 Firmware")) and upload it to the STM32 like this:
 ```bash
-openocd -f interface/xcore.cfg -f target/stm32h7x.cfg -c "program your-binary.elf verify reset exit"
+cd ~
+openocd -f interface/xcore.cfg -f target/stm32h7x.cfg -c "program openmower.elf verify reset exit"
 ```
 The firmware should be uploaded and the program should be running.
 

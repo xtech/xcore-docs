@@ -10,7 +10,7 @@ the CM4's GPIOs to connect to the STM32's SWD interface.
 ### Step 1: Building OpenOCD
 Execute the following commands in order to install the dependencies, build and install OpenOCD:
 ```bash
-sudo apt install automake autoconf build-essential libtool libftdi-dev libusb-1.0-0-dev texinfo pkg-config rpi.gpio-common curl
+sudo apt install autoconf automake build-essential curl libftdi-dev libtool libusb-1.0-0-dev git pkg-config rpi.gpio-common texinfo
 git clone https://github.com/raspberrypi/openocd.git --recursive
 cd openocd
 ./bootstrap
@@ -32,3 +32,12 @@ cd ~
 openocd -f interface/xcore.cfg -f target/stm32h7x.cfg -c "program openmower.elf verify reset exit"
 ```
 The firmware should be uploaded and the program should be running.
+
+
+### Debugging via remote GDB
+In order to debug the program on your xCore board, run the following command:
+```bash
+openocd -f interface/xcore.cfg -f target/stm32h7x.cfg -c "bindto 0.0.0.0"
+```
+
+Then connect your favorite IDE to port 3333 to upload and debug using GDB

@@ -57,7 +57,7 @@ In addition to the interfaces available via the SODIMM connector, the xCore boar
 - **CSI (Camera Serial Interface)**: Direct connection for a camera module using the CSI interface.
 - **DSI (Display Serial Interface)**: Direct connection for a display using the DSI interface.
 - **SD Card Interface (for CM4 Lite)**: Provides SD card storage access for Raspberry Pi CM4 Lite models.
-- **Fan Connector**: Allows you to connect a cooling fan to manage thermal performance for the CM4.
+- **Fan Connector**: Allows you to connect a cooling fan to manage thermal performance for the CM4 _(It is the same connector as the [Pi 5](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#raspberry-pi-5-fan-connector-pinout) and controllable by GPIO6)._
 
 These additional interfaces enable the xCore platform to fully leverage the capabilities of the Raspberry Pi CM4, offering high-speed data transfer, camera and display connectivity.
 

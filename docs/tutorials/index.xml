@@ -3,7 +3,7 @@
 the CM4&amp;rsquo;s GPIOs to connect to the STM32&amp;rsquo;s SWD interface.&lt;/p>
 &lt;h3 id="step-1-building-openocd">Step 1: Building OpenOCD&lt;/h3>
 &lt;p>Execute the following commands in order to install the dependencies, build and install OpenOCD:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install automake autoconf build-essential libtool libftdi-dev libusb-1.0-0-dev texinfo pkg-config rpi.gpio-common curl
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install autoconf automake build-essential curl libftdi-dev libtool libusb-1.0-0-dev git pkg-config rpi.gpio-common texinfo
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone https://github.com/raspberrypi/openocd.git --recursive
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">cd&lt;/span> openocd
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>./bootstrap

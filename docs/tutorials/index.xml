@@ -34,4 +34,100 @@ the CM4&amp;rsquo;s GPIOs to connect to the STM32&amp;rsquo;s SWD interface.&lt;
 &lt;h3 id="debugging-via-remote-gdb">Debugging via remote GDB&lt;/h3>
 &lt;p>In order to debug the program on your xCore board, run the following command:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>openocd -f interface/xcore.cfg -f target/stm32h7x.cfg -c &lt;span style="color:#4e9a06">&amp;#34;bindto 0.0.0.0&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then connect your favorite IDE to port 3333 to upload and debug using GDB&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then connect your favorite IDE to port 3333 to upload and debug using GDB&lt;/p></description></item><item><title>Docs: Installing and Configuring a DHCP Server</title><link>/docs/tutorials/installing-dhcp-server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/tutorials/installing-dhcp-server/</guid><description>
+&lt;h2 id="why-set-up-a-dhcp-server">Why Set Up a DHCP Server?&lt;/h2>
+&lt;p>The xCore board serves as the central hub in an internal network used by your robot.
+The xCore includes a microcontroller (STM32) which talks directly with the Linux system. To enable this, we create a private network on &lt;code>eth0&lt;/code> with a static IP and assign dynamic IPs to connected devices using DHCP.
+The STM32 will acquire an IP address automatically.&lt;/p>
+&lt;hr>
+&lt;h2 id="step-1-set-static-ip-on-eth0">Step 1: Set Static IP on &lt;code>eth0&lt;/code>&lt;/h2>
+&lt;p>We will assign a static IP &lt;code>172.16.78.1&lt;/code> to &lt;code>eth0&lt;/code>. You can do this using the built-in network configuration utility:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo nmtui
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
+&lt;li>Select &lt;strong>Edit a connection&lt;/strong>&lt;/li>
+&lt;li>Choose your &lt;strong>Wired connection&lt;/strong>&lt;/li>
+&lt;li>Set &lt;strong>IPv4 Configuration&lt;/strong> to &lt;strong>Manual&lt;/strong>&lt;/li>
+&lt;li>Add:
+&lt;ul>
+&lt;li>Address: &lt;code>172.16.78.1&lt;/code>&lt;/li>
+&lt;li>Netmask: &lt;code>255.255.255.0&lt;/code>&lt;/li>
+&lt;li>Gateway: leave blank&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Save and &lt;strong>Activate&lt;/strong> the connection&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>💡 You may also use &lt;code>nmcli&lt;/code> instead:&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo nmcli con mod &lt;span style="color:#4e9a06">&amp;#34;Wired connection 1&amp;#34;&lt;/span> ipv4.method manual ipv4.addresses 172.16.78.1/24
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo nmcli con up &lt;span style="color:#4e9a06">&amp;#34;Wired connection 1&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Verify the result by running &lt;code>ip -4 address show dev eth0&lt;/code>.
+The expected output should be:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>robot@robot:~ $ ip -4 address show dev eth0
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2: eth0: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu &lt;span style="color:#0000cf;font-weight:bold">1500&lt;/span> qdisc mq state UP group default qlen &lt;span style="color:#0000cf;font-weight:bold">1000&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> inet 172.16.78.1/24 brd 172.16.78.255 scope global noprefixroute eth0
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> valid_lft forever preferred_lft forever
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="step-2-install-the-dhcp-server">Step 2: Install the DHCP Server&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install isc-dhcp-server -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="step-3-configure-dhcp-server">Step 3: Configure DHCP Server&lt;/h2>
+&lt;h3 id="edit-default-interface">Edit default interface&lt;/h3>
+&lt;p>Open &lt;code>/etc/default/isc-dhcp-server&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo nano /etc/default/isc-dhcp-server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Find and modify this line:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">INTERFACESv4&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;eth0&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Save the configuration by pressing &lt;code>CTRL+O&lt;/code>, &lt;code>ENTER&lt;/code>. Then exit nano by pressing &lt;code>CTRL+X&lt;/code>.&lt;/p>
+&lt;hr>
+&lt;h3 id="add-dhcp-configuration">Add DHCP configuration&lt;/h3>
+&lt;p>Edit the main DHCP config file:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo nano /etc/dhcp/dhcpd.conf
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Replace the config with the following:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>default-lease-time 600;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>max-lease-time 7200;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>authoritative;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>subnet 172.16.78.0 netmask 255.255.255.0 {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> interface eth0;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> range 172.16.78.150 172.16.78.200;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> option routers 172.16.78.1;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> option domain-name-servers 172.16.78.1;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> option domain-name &amp;#34;robot.local&amp;#34;;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="step-4-start-the-dhcp-server">Step 4: Start the DHCP Server&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl start isc-dhcp-server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enable it at boot:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl &lt;span style="color:#204a87">enable&lt;/span> isc-dhcp-server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="verification">Verification&lt;/h2>
+&lt;p>Run:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl status isc-dhcp-server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Make sure the output includes &lt;code>active (running)&lt;/code>.&lt;/p>
+&lt;p>Try to ping your STM32:
+Get the assigned IP by running &lt;code>cat /var/lib/dhcp/dhcpd.leases&lt;/code>&lt;/p>
+&lt;p>&lt;strong>Example output:&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>robot@robot:~ $ cat /var/lib/dhcp/dhcpd.leases
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># The format of this file is documented in the dhcpd.leases(5) manual page.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># This lease file was written by isc-dhcp-4.4.3-P1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># authoring-byte-order entry is generated, DO NOT DELETE&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>authoring-byte-order little-endian&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>server-duid &lt;span style="color:#4e9a06">&amp;#34;\000\001\000\001/\244\342\375,\317gJ\305\345&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lease 172.16.78.150 &lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> starts &lt;span style="color:#0000cf;font-weight:bold">3&lt;/span> 2025/04/30 13:33:05&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ends &lt;span style="color:#0000cf;font-weight:bold">3&lt;/span> 2025/04/30 13:43:05&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> cltt &lt;span style="color:#0000cf;font-weight:bold">3&lt;/span> 2025/04/30 13:33:05&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> binding state active&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> next binding state free&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> rewind binding state free&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> hardware ethernet d8:47:8f:91:b9:6c&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then you should be able to ping the STM32:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>robot@robot:~ $ ping 172.16.78.150
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>PING 172.16.78.150 &lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>172.16.78.150&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span> 56&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>84&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span> bytes of data.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#0000cf;font-weight:bold">64&lt;/span> bytes from 172.16.78.150: &lt;span style="color:#000">icmp_seq&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#000">ttl&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">255&lt;/span> &lt;span style="color:#000">time&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>0.354 ms
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

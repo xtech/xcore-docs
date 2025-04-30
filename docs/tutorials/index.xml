@@ -11,7 +11,21 @@
 &lt;p>Copy the compiled firmware binary (.elf format) to your (V2) mower:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>scp out/openmower.elf openmower@openmower.local:&lt;span style="color:#4e9a06">&amp;#34;
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The firmware should be copied to your mower where it could be uploaded to the STM32 microcontroller,
-see &lt;a href="/docs/tutorials/flashing-stm32-from-cm4/" title="Flashing STM32 From CM4">Flashing STM32 From CM4&lt;/a>.&lt;/p></description></item><item><title>Docs: Flashing STM32 From CM4</title><link>/docs/tutorials/flashing-stm32-from-cm4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/tutorials/flashing-stm32-from-cm4/</guid><description>
+see &lt;a href="/docs/tutorials/flashing-stm32-from-cm4/" title="Flashing STM32 From CM4">Flashing STM32 From CM4&lt;/a>.&lt;/p></description></item><item><title>Docs: Enable DSI Display</title><link>/docs/tutorials/enable-dsi-display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/tutorials/enable-dsi-display/</guid><description>
+&lt;p>Connecting a display to the DSI port is easy, just follow these steps:&lt;/p>
+&lt;h3 id="connecting-the-official-raspberry-pi-7-inch-display">Connecting the Official Raspberry Pi 7-inch Display&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Power off&lt;/strong> the xCore and disconnect it from its power source.&lt;/li>
+&lt;li>Connect the official 7-inch display to the &lt;strong>DISP&lt;/strong> port on the xCore board.&lt;/li>
+&lt;li>Power up the board.&lt;/li>
+&lt;li>Edit the &lt;code>/boot/firmware/config.txt&lt;/code> file and add the following line:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>dtoverlay=vc4-kms-dsi-7inch
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>Reboot the system:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo reboot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;p>After rebooting, the display should be detected automatically and begin showing output. The touch function should be working as expected.&lt;/p></description></item><item><title>Docs: Flashing STM32 From CM4</title><link>/docs/tutorials/flashing-stm32-from-cm4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/tutorials/flashing-stm32-from-cm4/</guid><description>
 &lt;p>In order to use the Raspberry Pi CM4 to upload firmware to the STM32, we need a custom version of OpenOCD which can use
 the CM4&amp;rsquo;s GPIOs to connect to the STM32&amp;rsquo;s SWD interface.&lt;/p>
 &lt;h3 id="step-1-building-openocd">Step 1: Building OpenOCD&lt;/h3>

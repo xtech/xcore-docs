@@ -2,8 +2,8 @@
 &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 810px">
 &lt;img class="card-img-top" src="/docs/knowledge-base/leds/leds_huf53331f27b08d7879abcd7df6520dbc0_216664_800x0_resize_q75_catmullrom.jpg" width="800" height="744">
 &lt;/figure>
-&lt;p>The meaning of the Raspberry Pi LEDs are public known. If not, please ask your preferred search engine.&lt;/p>
-&lt;p>Following a list of the current known/implemented xCore LED meanings:&lt;/p>
+&lt;p>The meaning of the Raspberry Pi LEDs are publicly known. For details about those LEDs, refer to the Raspberry Pi documentation or your preferred search engine.&lt;/p>
+&lt;p>Following a list of the currently known/implemented xCore LED meanings:&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -14,34 +14,29 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">On&lt;/td>
+&lt;td style="text-align:center">Anything&lt;/td>
 &lt;td style="text-align:center">&lt;/td>
-&lt;td>IP assigned?&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">Blink&lt;br>(~1Hz)&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td>TODO&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">Quick flash&lt;br>(&amp;gt;=10Hz)&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td>TODO&lt;/td>
+&lt;td>Controlled by the application firmware, check firmware documentation&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">&lt;/td>
 &lt;td style="text-align:center">2 blue quick flashes&lt;br>(continuous)&lt;/td>
-&lt;td>No App (OpenMower) firmware found?&lt;/td>
+&lt;td>Bootloader mode&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">&lt;/td>
 &lt;td style="text-align:center">2 green quick flashes&lt;br>(continuous)&lt;/td>
-&lt;td>App (OpenMower) firmware up and alive?&lt;/td>
+&lt;td>Firmware running normally&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:center">red&lt;/td>
-&lt;td>TODO&lt;/td>
+&lt;td style="text-align:center">Off or permanently on&lt;/td>
+&lt;td>Firmware/system crashed or stuck&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">Red&lt;/td>
+&lt;td>Severe error / something went seriously wrong&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item></channel></rss>
